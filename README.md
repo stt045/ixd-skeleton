@@ -1,7 +1,5 @@
 # Parking Now
 
-====
-
 Project for: **COGS 120 / CSE 170**
 
 Collaborators: **Steven Tran, Angela Liu, Chiao Wang**
