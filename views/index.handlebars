@@ -1,3 +1,5 @@
+<!doctype html>
+
 <html>
 <head>
 	<title>Home Page</title>
@@ -5,35 +7,51 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="/css/introHCI.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body class="main">
 	<div class="header">
 		<h2>Available Parking</h2>
 	</div>
 
-	<div>
-		<h4> Select a parking structure to recieve notifications </h4>	 
+	<div class="message">
+		Select a parking structure to recieve notifications 	 
 	</div>	
 
 
-<!-- Eitehr use lists or just make multiple divs to separate different parking structures. Can use https://www.w3schools.com/w3css/w3css_mobile.asp as a referernce tool-->
-	<div>
-		<ul class="parking">
+<!-- Eitehr use lists or just make multiple divs to separate different parking structures. Can use https://www.w3schools.com/w3css/w3css_mobile.asp as a referernce tool -->
+	<div class="options">
+		<ul class="list-unstyled">
 			<li> Pangea </li>
 			<li> Hopkins </li>
 			<li> Osler </li>
 			<li> Gilman </li>
+			<li> P406 </li>
+			<li> P408 </li>
+
 		</ul>
 	</div>	
 
 	<div class="footer">
-		<table>
+		<table class="tabs">
 			<tr>
-				<th>Parking</th>
-				<th>Reminders</th>
-				<th>Settings</th>
+				<!--<th><a href="">Parking</a></th>-->
+				<th>
+					<form action="link to parking page">
+    				<input type="submit" value="Parking" />
+					</form>
+				</th>
+				<th>
+					<form action="link to reminders page">
+    				<input type="submit" value="Reminders" />
+					</form>
+				</th>
+				<th>
+					<form action="link to settings page">
+    				<input type="submit" value="Settings" />
+					</form>
+				</th>
 			</tr>	
 		</table>	
 	</div>
