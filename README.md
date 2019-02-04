@@ -1,12 +1,12 @@
 # Parking Now
-repo
+
 ====
 
-Project for: ** COGS 120 / CSE 170 **
+Project for: **COGS 120 / CSE 170**
 
-Collaborators: Steven Tran, Angela Liu, Chiao Wang
+Collaborators: **Steven Tran, Angela Liu, Chiao Wang**
 
-** Park Now is a mobile web app design to assist UCSD students in the horrendous task known as parking **
+Park Now is a mobile web app design to assist UCSD students in the horrendous task known as parking
 
 **Project Description**
 
@@ -25,7 +25,7 @@ as to when parking lots are filling up or are full.
 Users also have the ability to set reminders for when to leave their home in the 
 morning to guaruntee parking on campus. 
 
-** Pages with completed HTML **
+**Pages with completed HTML**
 
 * [ ] welcome screen
 * [ ] login screen
