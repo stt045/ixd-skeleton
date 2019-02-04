@@ -36,4 +36,10 @@ morning to guaruntee parking on campus.
 * [ ] full parking alert
 * [ ] reminder alert
 
+**Notes**
+CSS is completed for the home screen
+Need to CSS the rest of the app
+Then set up all the routes
+Then link all the buttons
+
 
