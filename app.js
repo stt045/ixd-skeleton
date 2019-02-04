@@ -9,6 +9,14 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
+var parking = index;
+var login = require('./routes/login');
+var welcome = require('./routes/welcome');
+var permit = require('./routes/permit');
+var reminders = require('./routes/reminders');
+var setReminders = require('./routes/setReminder');
+var help = require('./routes/help');
+var settings = require('./routes/settings');
 // Example route
 // var user = require('./routes/user');
 
@@ -35,6 +43,9 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', index.view);
+app.get('/parking', index.view);
+app.get('/reminders', reminders.view);
+app.get('/settings', settings.view);
 // Example route
 // app.get('/users', user.list);
 

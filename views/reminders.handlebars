@@ -1,3 +1,5 @@
+<!doctype html>
+
 <html>
 <head>
 	<title>Reminders Page</title>
@@ -5,18 +7,46 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="/css/bootstrap.min.css" rel="stylesheet">
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
-	<link href="/css/introHCI.css" rel="stylesheet">
+	<link href="/css/introHCI.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<div class="header">
+		<h2>Reminders</h2>
+	</div>
 
-	<!-- Dynamically Listing all of our current reminders -->
-	<ol>
-	{{#each reminder}}
-		<li><a href="#{{id}}">{{name}}</a></li>
-	{{/each}}		
-	</ol>	
+	<div>
+		<!-- Dynamically Listing all of our current reminders -->
+		<ol>
+		{{#each reminder}}
+			<li><a href="#{{id}}">{{name}}</a></li>
+		{{/each}}		
+		</ol>	
+	</div>
+
+
+	<table>
+		<tr>
+			<th>
+				<form action="parking">
+					<input type="submit" value="Parking" />
+				</form>
+			</th>
+			<th>
+				<form action="reminders">
+					<input type="submit" value="Reminders" />
+				</form>
+			</th>
+			<th>
+				<form action="settings">
+					<input type="submit" value="Settings" />
+				</form>
+			</th>
+		</tr>	
+	</table>	
+
+
 
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </body>
-</html>
+</html> 

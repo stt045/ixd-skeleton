@@ -1,22 +1,15 @@
 .main {
 	/*background-color: #dde5ff;*/
 }
-
 .footer {
-    float:left;
-    /* Aligning footer to the bottom of the container */
-    position: absolute;
-    bottom: 0;
-
-    font-size: 18.3px;
+	background-color: #cce5ff;
 }
-
 
 /* table and th refer to the tabs at the bottom of the screen */ 
 table {
 	position: absolute;
 	bottom: 0;
-	/*background-color: #cce5ff;*/
+	font-size: 18.3px;
 }
 
 th {
@@ -36,6 +29,7 @@ th {
 	*/
 	font-size: 30px;
 	position: center;
+	/*background-color: #cce5ff;*/
 }
 
 .options li {
@@ -61,3 +55,4 @@ th {
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+
