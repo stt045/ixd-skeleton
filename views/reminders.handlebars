@@ -8,7 +8,14 @@
 	<link href="/css/introHCI.css" rel="stylesheet">
 </head>
 <body>
-Begin here (or replace this with any static code already written).
+
+	<!-- Dynamically Listing all of our current reminders -->
+	<ol>
+	{{#each reminder}}
+		<li><a href="#{{id}}">{{name}}</a></li>
+	{{/each}}		
+	</ol>	
+
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </body>

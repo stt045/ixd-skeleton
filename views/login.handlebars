@@ -8,7 +8,35 @@
 	<link href="/css/introHCI.css" rel="stylesheet">
 </head>
 <body>
-Begin here (or replace this with any static code already written).
+
+	<!-- Application Image inserted here -->
+	<div class="imgcontainer">
+    	<img src="custom image">
+  	</div>
+
+  	<!-- Page Header -->
+	<div class="header">
+		<h2>LOGIN via TritonLink</h2>
+	</div>	
+
+	<!-- Login and Password Fields + Login Button -->
+	<div class="container">
+    	<label for="username"><b>Student ID</b></label>
+    	<input type="text" placeholder="Enter Student ID" name="username" required>
+
+    	<label for="password"><b>Password</b></label>
+    	<input type="password" placeholder="Enter Password" name="password" required>
+
+    	<!-- NEED TO LINK BUTTON to PERMIT screen -->
+    	<button type="submit">Login</button>
+
+    	<!-- Need to add functionality to remember users, if possible -->
+    	<label>
+      		<input type="checkbox" checked="checked" name="remember"> Remember me
+    	</label>
+    </div>
+
+
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </body>
