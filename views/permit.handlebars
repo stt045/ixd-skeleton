@@ -10,12 +10,14 @@
 	<link href="/css/introHCI.css" rel="stylesheet">
 </head>
 <body>
-	<div>
-		<h2>SELECT A PARKING PERMIT</h2>
+	<div class="announcement">
+		<h2>SELECT PARKING PERMIT</h2>
 	</div>	
 
+	<button onclick="goBack()">Go Back</button>
+
 	<div class="permits">
-		<ul>
+		<ul class="list-unstyled">
 			<li> A PERMIT </li>
 			<li> B PERMIT </li>
 			<li> S PERMIT </li>
@@ -23,9 +25,16 @@
 			<li> DISABLED PERMIT </li>
 		</ul>	
 	</div>
-	<div>
-		<a href="Link to parking page"> CONTINUE TO PARKING NOW </a>
+
+	<div class="next">
+		<a href="parking"> CONTINUE TO PARKING NOW </a>
 	</div>	
+
+	<script>
+		function goBack() {
+		  	window.history.back();
+		}	
+	</script>
 	<script src="https://code.jquery.com/jquery.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
 </body>
