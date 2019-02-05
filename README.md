@@ -37,9 +37,10 @@ morning to guaruntee parking on campus.
 * [ ] reminder alert
 
 **Notes**
-CSS is completed for the home screen
-Need to CSS the rest of the app
-Then set up all the routes
-Then link all the buttons
 
+Need to edit the CSS to be used correctly on mobile sites.
+
+Need to also make the buttons and links consistent
+
+Need to make sure all the buttons and tabs on the bottom stay static when scrolling
 
