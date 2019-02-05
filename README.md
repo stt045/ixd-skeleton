@@ -25,14 +25,14 @@ morning to guaruntee parking on campus.
 
 **Pages with completed HTML**
 
-* [ ] welcome screen
-* [ ] login screen
-* [ ] permit adding screen
+* [x] welcome screen
+* [x] login screen
+* [x] permit adding screen
 * [x] index - homepage
-* [ ] reminders screen
-* [ ] reminder adding screen
-* [ ] settings screen
-* [ ] help screen
+* [x] reminders screen
+* [x] reminder adding screen
+* [x] settings screen
+* [x] help screen
 * [ ] full parking alert
 * [ ] reminder alert
 
